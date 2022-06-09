@@ -1,5 +1,6 @@
 import MyButton from "./MyButton"
 import Container from "./container"
+import Parent from "./Parent"
 
 function App(){
     return(
@@ -9,6 +10,7 @@ function App(){
         <Container>
             <h3>I am a container</h3>
         </Container>
+        <Parent />
       </div>
     )   
 }
