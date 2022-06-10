@@ -1,6 +1,6 @@
 import MyButton from "./MyButton"
-import Container from "./container"
-import Parent from "./Parent"
+import Container from "./Container"
+import {Parent} from "./Parent"
 
 function App(){
     return(

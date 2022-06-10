@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { UserProvider } from "./contexts/index"
 import App from "./components/App";
 import Login from "./components/Login";
+import {Register} from "./components/StopReRender";
 import Home from "./components/Login";
 
 ReactDOM.render(
@@ -14,7 +15,9 @@ ReactDOM.render(
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/home" element={<Home />} />
+
         </Routes>
       </UserProvider>
     </BrowserRouter>
